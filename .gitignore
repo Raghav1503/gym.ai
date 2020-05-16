@@ -142,3 +142,4 @@ cython_debug/
 
 # Data
 /Deep Learning/Food_Classification/data
+/Deep Learning/Food_Classification/logs
