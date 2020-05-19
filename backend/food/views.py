@@ -8,7 +8,7 @@ def home(request):
         uploaded_file = request.FILES['document']
         fs = FileSystemStorage()
         fs.save(uploaded_file.name, uploaded_file)
-        # predict(uploaded_file.name)
+        predict('backend/media/'+ str(uploaded_file.name))
 
     return render(request, 'food/predict.html')
 
